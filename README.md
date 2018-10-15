@@ -149,5 +149,9 @@ This should return `"5 laptops"`. If you switch the 5 to a 1, it will return `"1
 
 Why are we using the `rails console` instead of just starting an IRB session? That's a great question. Try running the same `pluralize` method in an IRB session and you'll see the following error: ``NameError: undefined local variable or method `helper` for main:Object``. The reason for the error is that there is a very significant difference between the Rails console and IRB. Even though they both run Ruby code, the Rails console loads the full Rails environment, which provides access to Rails's specific methods (along with the full application database). Don't worry if the idea of using the console is still fuzzy –– we'll be using it constantly in future lessons, and it will soon become second nature.
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-rails-application-basics-readme/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-rails-application-basics-readme/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p class='util--hide'>View <a href='https://learn.co/lessons/rails-application-basics-readme'>Rails Application Basics</a> on Learn.co and start learning to code for free.</p>
 <p data-visibility='hidden'>PHRG Rails Application Basics</p>
